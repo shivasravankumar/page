@@ -1,0 +1,134 @@
+
+div{
+    
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+h1{
+
+    margin-left: 38%;
+    font-family: 'arial';
+    color: #f34134;
+}
+label{
+    margin-left: 10%;
+}
+body{
+    background-image: url("https://freephotos.cc/storage/preview/path/modern-laptop-and-watches_free_stock_photos_picjumbo_DSC05387-2210x1473.jpg");
+    background-size: 100%;
+    font-family: 'Malgun Gothic';
+
+
+
+
+}
+fieldset{
+    border-radius: 35px;
+    border: none;
+    box-shadow:2px 2px 8px 6px #111 ;
+    font-family: sans-serif;
+
+
+}
+
+button{
+    margin-left: 40%;
+}
+input{
+    margin-left: 4%;
+    font-size: 15px;
+    border-width: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 15px;
+    background-color: #fffde4;
+    height: 21px;
+    font-family: Palatino Linotype;
+
+}
+input:hover{
+    border-color: #005bea;
+
+}
+p{
+    margin-left: 11%;
+    height: 10%;
+    width: 95%;
+    font-family: 'calibri';
+    font-size: 22px;
+}
+button{
+
+    height: 45px;
+    width: 280px;
+    margin-left: 13%;
+    font-family: 'san serif';
+    font-size: 25px;
+    border-radius: 26px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width:3px;
+    font-family:'calibri';
+    font-size: 196%;
+    color:#fff;
+    background: #005bea;
+    letter-spacing: 6px;
+
+
+}
+button:hover{
+    letter-spacing: 2px;
+    border-color: rgb(37, 252, 8);
+}
+#pass{
+    margin-left: 50%;
+    text-decoration: none;
+}
+#g{
+    margin-left: 28%;
+    color: black;
+
+}
+#t{
+    margin-left: 12%;
+    color: black;
+}
+
+#l{
+    margin-left: 12%;
+    color: black;
+}
+a{
+    font-family: 'arial';
+    font-size: 18px;
+
+}
+span{
+    height: 2%;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: 'arial';
+
+
+}
+#check{
+    margin-top: 0%;
+    height:12px;
+    width: 15px;
+
+}
+#m{
+    font-size: 18px;
+}
+#n{
+    color: aquamarine ;
+}
+#e{
+    color: aquamarine ;
+}
+#p{
+    color: aquamarine ;
+}

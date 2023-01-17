@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--<link rel="stylesheet" href="C:/Users/Shiva Kumar V/Desktop/Pro/Demo/assets/fontawesome/css/all.css">
+    <link rel="icon" id="logo" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">-->
+
+</head>
+<body>
+    <br><br><br>
+
+    <div>
+
+        <form action="" target="_blank" method="post" id="form">
+            <fieldset>
+
+                <h1> LOGIN </h1><br>
+                <p>Enter your Details / Social Media</p><br>
+
+
+            <label for="">
+                   <input type="text" required placeholder="   Enter your Username" size="30px" height="25%" width="25%" id="username"> <i class="bi bi-person-circle" id="n"></i><!--<i class="fa-solid fa-user" ></i>-->
+            </label>
+            <br><br><br><br>
+
+            <label for="">
+                    <input type="email" required  placeholder= "   Enter your e-mail " size="30px" id="email"> <i class="bi bi-envelope-at-fill" id="e"></i><!--<i class="fa-solid fa-envelope" ></i>-->
+            </label>
+            <br><br><br><br>
+            <label for="">
+                    <input type="password"  placeholder="   Enter e-mail Password" required size="30px" id="password"> <i class="bi bi-file-earmark-lock2" id="p"></i><!--<i class="fa-solid fa-lock" ></i>-->
+
+            </label>
+            <br><br><br><br>
+
+            <button type="submit" onclick="document.getElementById(pop())" id="login">Login</button>
+            <br><br>
+            <a href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fsigninoptions%2Fpassword&service=accountsettings&hl=en-GB&sarp=1&scc=1&rart=ANgoxcep4_youzPExm9kYpeM2XrnoCgH_qKNZ6AEHzIfypMmrsJhQAPS-agvuVvMjm3DGuE5RMzmX3SwLa1ruJfAiVlbQnhkPA&kdi=CAM&TL=AC7eWV3-DdSh9YBAdFZji796Z7887J3x-I9YJdRh0sGTu2mfBayzbhhRRkOJ7u-y&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin" target="_blank" id="pass">Forgot Password?</a>
+            <br><br>
+            <hr noshade="0px">
+            <input type="checkbox" id="check" ><font id="m">Remember me</font>
+
+            <br><br><br>
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1777900898%3A1672124890103604&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh6kq3IMWJmzrmyLB7mor_kNocv7m94X8bUEI8Vo37JPXAyaKYcLDEe00hZ5RKdxPAygHi8w" title="Login with google" target="_blank"><i class="bi bi-google" id="g"></i><!--<i class="fa-brands fa-google" ></i>--></a>
+
+            <a href="https://www.secure.instagram.com/accounts/login/?next=/qatar.gold/tagged/&source=profile_tagged_tab" title="Login with instagram" target="_blank"><i class="bi bi-instagram" id="t"></i><!--<i class="fa-brands fa-instagram" ></i>--></a>
+
+            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D1007768%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMI96aloquZ_AIVaZJmAh2YOg3gEAAYASAAEgLV-fD_BwE" title="Login with linkedin" target="_blank"><i class="bi bi-facebook" id="l"></i><!--<i class="fa-brands fa-facebook" ></i>--></a>
+            <br><br>
+            <br><br>
+        </fieldset>
+        </form>
+    </div>
+
+    <br><br><br>
+
+
+</body>
+<script>
+    function pop(){
+
+        alert("Your details are submitted Successfully!  :)");
+
+        }
+
+</script>
+</html>
